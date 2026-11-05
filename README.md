@@ -8,7 +8,7 @@ A Conn3x circuit that installs [Last Rack Standing](https://github.com/conn3xorg
 
 ```hcl
 module "lastrack" {
-  source = "github.com/conn3xorg/circuit-lastrack?ref=v0.1.0"
+  source = "github.com/conn3xorg/circuit-lastrack?ref=v0.1.1"
 
   hosts                = { web1 = "203.0.113.10" }
   ssh_private_key_file = "~/.ssh/id_ed25519"
